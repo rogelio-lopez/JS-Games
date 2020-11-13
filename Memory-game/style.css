@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+/** Title */
+.title{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.title > h2{
+    color: rgb(92, 92, 92);
+    font-size: 40px;
+    letter-spacing: 2px;
+    padding: 40px 20px;
+}
+.title > p{
+    color: rgb(92, 92, 92);
+    padding-bottom: 10px;
+}
+.score{
+    margin-top: 40px;
+}
+.score > h3{
+    color: rgb(77, 77, 77);
+    padding: 5px;
+}
+
+/** Panel */
+.panel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    min-width: 500px;
+    background-color: beige;
+}
+.cards{
+    height: 600px;
+    width: 400px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: 90px 90px 90px 90px;
+    grid-template-rows: 120px 120px 120px 120px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.back{
+    height: 120px;
+    width: 90px;
+    transform: rotateY(-90deg);
+    transition: linear .2s;
+}
+.back--active{
+    transform: rotateY(0deg);
+}
+.front{
+    height: 120px;
+    width: 90px;
+    position: absolute;
+    transition: linear .2s;
+}
+.front--active{
+    transform: rotateY(90deg);
+}
+
+
+
+
+
+/* Resizing */
+@media screen and (max-width: 800px){
+    body{
+        flex-direction: column;
+    }
+    .title{
+        height:20%;
+        width: 100%;
+    }
+    .title > h2{
+        font-size: 30px;
+        padding: 10px;
+    }
+    .score{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .panel{
+        height: 80%;
+        width: 100%;
+    }
+}
