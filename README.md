@@ -6,3 +6,5 @@ Collection of JavaScript projects
 2.) Calculator
 
 3.) Memory Game
+
+4.) Tic Tac Toe
