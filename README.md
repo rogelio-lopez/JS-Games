@@ -8,3 +8,5 @@ Collection of JavaScript projects
 3.) Memory Game
 
 4.) Tic Tac Toe
+
+5.) Drum Kit
