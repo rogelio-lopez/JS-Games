@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    font-family: monospace;
+}
+.app{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/** title */
+.title{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: rgb(34, 34, 34);
+}
+#titleAccent{
+    color: #008ebd;
+}
+
+/** form */
+.form{
+    width: 400px;
+}
+.inputField{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px 0px;
+    color: rgb(34, 34, 34);
+    font-size: 15px;
+}
+.inputField > input{
+    height: 20px;
+}
+.submitBtn{
+    width: 100%;
+    height: 30px;
+    margin: 5px 0px;
+    color: white;
+    border-radius: 2px;
+    background-color: #008ebd;
+}
+
+/** table */
+table{
+    width: 400px;
+    margin-top: 20px;
+    color: rgb(34, 34, 34);
+    font-size: 14px;
+    border-bottom: 1px solid rgb(34, 34, 34);
+    border-collapse: collapse;
+}
