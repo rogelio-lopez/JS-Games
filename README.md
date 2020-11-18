@@ -9,4 +9,4 @@ Collection of JavaScript projects
 
 4.) Tic Tac Toe
 
-5.) Drum Kit
+5.) Book list
