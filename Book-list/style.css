@@ -26,6 +26,15 @@
     color: #008ebd;
 }
 
+/** alert */
+.alert{
+    width: 400px;
+    height: 30px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
 /** form */
 .form{
     width: 400px;
@@ -40,6 +49,11 @@
 }
 .inputField > input{
     height: 20px;
+}
+.errorMsg{
+    color: red;
+    font-size: 10px;
+    display: none;
 }
 .submitBtn{
     width: 100%;
@@ -56,6 +70,20 @@ table{
     margin-top: 20px;
     color: rgb(34, 34, 34);
     font-size: 14px;
-    border-bottom: 1px solid rgb(34, 34, 34);
     border-collapse: collapse;
+}
+.tableHeader{
+    font-size: 16px;
+    border-top: 1px solid rgb(34, 34, 34);
+    border-bottom: 1px solid rgb(34, 34, 34);
+}
+td{
+    text-align: center;
+}
+.deleteBtn{
+    width: 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
 }
