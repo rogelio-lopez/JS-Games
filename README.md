@@ -10,3 +10,5 @@ Collection of JavaScript projects
 4.) Tic Tac Toe
 
 5.) Book list
+
+6.)Tetris
