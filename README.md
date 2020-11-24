@@ -11,4 +11,6 @@ Collection of JavaScript projects
 
 5.) Book list
 
-6.)Tetris
+6.)Tetris (not finished)
+
+7.) Planner
