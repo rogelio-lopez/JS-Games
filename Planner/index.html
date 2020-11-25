@@ -6,6 +6,10 @@
         <title>Planner</title>
 
         <link rel="stylesheet" href="style.css"/>
+
+        <!--materialUI-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     </head>
     <body>
 
@@ -13,36 +17,32 @@
 
             <!-- header -->
             <div class="header">
-                <div class="title">
-                    <h1>My Planner</h1>
-                </div>
-                <div class="day">
-                    <h2>the day</h2>
-                </div>
-                <div class="pickDay">
-
-                    <div class="pick">
-                        <!--drop down icon place holder-->
-                        <p>V</p>
-                    </div>
-
-                    <div class="pick--active">
-                        <ul class="daysList">
-                            <li>Monday</li>
-                            <li>Tuesday</li>
-                            <li>Wednesday</li>
-                            <li>Thursday</li>
-                            <li>Friday</li>
-                            <li>Saturday</li>
-                            <li>Sunday</li>
-                        </ul>
-                    </div>
+                <div class="header__title">
+                    <i class='material-icons title-icon'>dvr</i>
+                    <h1>PLANNER</h1>
                 </div>
             </div>
 
-            <!-- acrual planner -->
+            
             <div class="planner">
-                
+
+                <ul class="hours">
+
+                    <li class="hour">
+                        <div class="hour__times">
+                            <p>6am</p>
+                            <p>7am</p>
+                        </div>
+                        <div class="hour__text">
+                            <p>do this application</p>
+                        </div>
+                        <div class="hour__btns">
+                            <i class='material-icons title-icon'>create</i>
+                            <i class='material-icons title-icon'>clear</i>
+                        </div>
+                    </li>
+
+                </ul>
             </div>
 
         </div>

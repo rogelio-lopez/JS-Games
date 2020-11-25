@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+}
+
+body{
+    overflow-x: hidden;
+    padding-bottom: 50px;
+    background-color:  rgb(255, 56, 20);
+}
+
+.app{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, salmon, tomato, rgb(255, 56, 20));
+}
+
+/** Header */
+.header{
+    display: flex;
+    height: 7vh;
+    min-height: 60px;
+    width: 100%;
+}
+.header__title{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 200px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: white !important;
+}
+.header__title > h1{
+    font-size: 23px;
+    padding: 0px 3px;
+}
+.title-icon{
+    font-size: 24px !important;
+}
+
+/** planner */
+.planner{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color:white;
+}
+.hours{
+    list-style: none;
+    padding: 5px;
+}
+.hour{
+    display: flex;
+    height: 40px;
+    padding: 5px 0px;
+    margin: 2px;
+    border-radius: 2px;
+    background-color: rgb(240, 240, 240);
+}
+.hour__times{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 40px;
+    height: 100%;
+    color: tomato;
+}
+.hour__times > p{
+    font-size: 15px;
+}
+.hour__text{
+    display: flex;
+    align-items: center;
+    width: 430px;
+    padding: 0px 10px;
+}
+.hour__btns{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    cursor: pointer;
+    color: white !important;
+}
+.hour__btns > i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 2px;
+    border-radius: 5px;
+    background-color: tomato;
+}
