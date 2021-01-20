@@ -1,12 +1,6 @@
-# JavaScript-Projects
-Collection of JavaScript projects 
+# JavaScript-Games
+Collection of JavaScript ames
 
-1.) To-do list 
+1.) Memory Game
 
-2.) Calculator
-
-3.) Memory Game
-
-4.) Tic Tac Toe
-
-5.) Book list
+2.) Tic Tac Toe
