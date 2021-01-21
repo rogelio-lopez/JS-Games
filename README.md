@@ -1,5 +1,5 @@
 # JavaScript-Games
-Collection of JavaScript ames
+Collection of JavaScript Games
 
 1.) Memory Game
 
