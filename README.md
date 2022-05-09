@@ -1,4 +1,4 @@
-# JavaScript-Games
+# JS Games
 Collection of JavaScript Games
 
 1.) Memory Game
